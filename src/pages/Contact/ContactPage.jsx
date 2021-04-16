@@ -12,7 +12,7 @@ export default function ContactPage(props) {
     return (
     <>
       <nav className="nav">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
