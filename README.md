@@ -11,7 +11,7 @@
   </ul>
 <h2>Getting Started</h2>
 <p>My portfolio can be found at the link below:</p>
-<a href="https://nicolewitherall.com"</a>
+<a href="https://nicolewitherall.com">Click Here</a>
 <h2>Next Steps</h2>
 <ul>
   <li>Add contact form</li>
