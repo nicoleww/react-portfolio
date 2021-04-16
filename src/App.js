@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <Switch>
-          <Route path='/' render={(props) => (
+          <Route path='/home' render={(props) => (
           <LandingPage {...props}/>
         )}/>
         <Route path='/projects' render={(props) => (
@@ -23,7 +23,7 @@ class App extends Component {
           <Route path='/contact' render={(props) => (
           <ContactPage {...props}/>
         )}/>
-        <Redirect to="/" />
+        <Redirect to="/home" />
         </Switch>
       </div>
     )
