@@ -10,8 +10,8 @@ export default function ProjectsItem(props) {
     <p>{props.tech}</p>
     <p>{props.login}</p>
     <div className="card-btns">
-    <a href={props.github}>View Github</a>
-        <a href={props.live}>View {props.button}</a>
+    <a href={props.github} target="_blank">View Github</a>
+        <a href={props.live} target="_blank">View {props.button}</a>
     </div>
     </div>
     );
